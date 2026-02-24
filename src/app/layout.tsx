@@ -1,35 +1,26 @@
 import type { Metadata } from "next";
-import { Roboto, Poppins, Libre_Baskerville } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "aos/dist/aos.css";
 import "./globals.css";
 
-const roboto = Roboto({
-  weight: ["100", "300", "400", "500", "700", "900"],
-  style: ["normal", "italic"],
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-roboto",
+  display: "swap",
+  variable: "--default-font",
 });
 
-const poppins = Poppins({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  style: ["normal", "italic"],
+const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-poppins",
-});
-
-const libreBaskerville = Libre_Baskerville({
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  variable: "--font-libre-baskerville",
+  display: "swap",
+  variable: "--heading-font",
 });
 
 export const metadata: Metadata = {
-  title: "Index - NiceRestaurant Bootstrap Template",
-  description: "Restaurant template migrated to Next.js",
+  title: "Karimu | The Art of Generosity, Refined",
+  description: "Curated hospitality rooted in grace, connection, and intention.",
 };
 
 export default function RootLayout({
@@ -39,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${poppins.variable} ${libreBaskerville.variable} index-page`}>
+      <body className={`${inter.variable} ${playfairDisplay.variable} index-page`}>
         {children}
       </body>
     </html>

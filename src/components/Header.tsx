@@ -28,10 +28,27 @@ export default function Header() {
       });
     });
 
+    // Toggle scrolled class on body
+    const toggleScrolled = () => {
+      const selectBody = document.querySelector("body");
+      const selectHeader = document.querySelector("#header");
+      if (!selectHeader || !selectHeader.classList.contains("sticky-top")) return;
+      if (window.scrollY > 100) {
+        selectBody?.classList.add("scrolled");
+      } else {
+        selectBody?.classList.remove("scrolled");
+      }
+    };
+
+    document.addEventListener("scroll", toggleScrolled);
+    window.addEventListener("load", toggleScrolled);
+
     return () => {
       if (mobileNavToggleBtn) {
         mobileNavToggleBtn.removeEventListener("click", mobileNavToogle);
       }
+      document.removeEventListener("scroll", toggleScrolled);
+      window.removeEventListener("load", toggleScrolled);
     };
   }, []);
 

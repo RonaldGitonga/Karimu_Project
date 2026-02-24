@@ -9,32 +9,43 @@
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Libre Baskerville",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Inter", system-ui, -apple-system, sans-serif;
+  --heading-font: "Playfair Display", serif;
+  --nav-font: "Inter", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: rgba(16, 23, 25, 0); /* Background color for the entire website, including individual sections */
-  --default-color: #f1f3f5; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #f4f7fa; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ceaf7f; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #252a2b; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #F8F3ED;
+  /* Cream */
+  --default-color: #2B2B2B;
+  /* Charcoal */
+  --heading-color: #1F3D2B;
+  /* Deep Green */
+  --accent-color: #C6A75E;
+  /* Muted Gold */
+  --surface-color: #FFFFFF;
+  /* Off-White */
+  --contrast-color: #F8F3ED;
+  /* Cream for contrast against dark UI */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #f1f3f5;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ceaf7f; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #243438; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #243438; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #f1f3f5; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ceaf7f; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #1F3D2B;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #C6A75E;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #F8F3ED;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #FFFFFF;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #1F3D2B;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #C6A75E;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -222,7 +233,13 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(0, 0, 0, 0.8);
+  --background-color: #FFFFFF;
+  --nav-color: #2B2B2B;
+  /* Charcoal for text readability */
+  --nav-hover-color: #C6A75E;
+  /* Muted Gold for hover */
+  --heading-color: #1F3D2B;
+  /* Deep Green for the logo */
 }
 
 /*--------------------------------------------------------------
@@ -2657,9 +2674,23 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+
+/* Karimu Global Button Hover Override */
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn-getstarted:hover,
+.btn-book-a-table:hover,
+.btn-book:hover,
+.btn-menu:hover,
+.btn-contact:hover,
+.btn-reserve:hover,
+.btn-details:hover,
+.btn-submit:hover,
+.btn-book-table:hover {
+  background-color: var(--heading-color) !important;
+  color: var(--surface-color) !important;
+  border-color: var(--heading-color) !important;
 }
