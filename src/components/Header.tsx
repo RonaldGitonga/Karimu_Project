@@ -60,17 +60,18 @@ export default function Header() {
           <Image
             src="/assets/img/karimu-logo-circle.png"
             alt="The Karimu Experience"
-            width={80}
-            height={80}
+            width={44}
+            height={44}
             style={{
               objectFit: "cover",
               borderRadius: "50%",
               border: "2px solid #c9a96e",
-              flexShrink: 0
+              flexShrink: 0,
+              minWidth: "44px"
             }}
             priority
           />
-          <h1 className="sitename" style={{ marginLeft: "12px" }}>The Karimu Experience</h1>
+          <h1 className="sitename" style={{ marginLeft: "10px", fontSize: "0.95rem", whiteSpace: "nowrap", lineHeight: 1.2 }}>The Karimu Experience</h1>
         </Link>
 
         <nav id="navmenu" className="navmenu">

@@ -186,11 +186,12 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 24px;
+  font-size: 19px;
   margin: 0;
   font-weight: 500;
   letter-spacing: 0.5px;
   color: var(--heading-color);
+  white-space: nowrap;
 }
 
 .header .btn-getstarted,
@@ -198,10 +199,11 @@ h6 {
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 14px;
-  padding: 8px 26px;
+  padding: 8px 22px;
   margin: 0;
   border-radius: 50px;
   transition: 0.3s;
+  white-space: nowrap;
 }
 
 .header .btn-getstarted:hover,
@@ -223,6 +225,33 @@ h6 {
 
   .header .navmenu {
     order: 3;
+  }
+}
+
+/* Tighten header on mid-large screens where nav starts to crowd */
+@media (min-width: 1200px) and (max-width: 1365px) {
+  .header .logo h1.sitename {
+    display: none;
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    padding: 18px 8px;
+    font-size: 13px;
+  }
+}
+
+/* Show sitename at mid-wide screens but smaller, keep nav compact */
+@media (min-width: 1366px) and (max-width: 1500px) {
+  .header .logo h1.sitename {
+    display: block;
+    font-size: 15px;
+  }
+
+  .navmenu a,
+  .navmenu a:focus {
+    padding: 18px 9px;
+    font-size: 14px;
   }
 }
 

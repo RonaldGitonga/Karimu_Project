@@ -43,7 +43,7 @@ export default function Menu() {
     <section id="menu" className="menu section">
       <div className="container section-title" data-aos="fade-up">
         <h2>We cater to a wide variety of palletes</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Whether you are hosting an intimate gathering or a grand celebration, we curate bespoke dining experiences that honour every taste, cultural tradition, and dietary preference — no two events are ever the same.</p>
       </div>
 
       <div className="container" data-aos="fade-up">
