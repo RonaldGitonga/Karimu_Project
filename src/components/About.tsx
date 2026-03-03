@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AnimatedCounter from "./AnimatedCounter";
 
 export default function About() {
   return (
@@ -7,9 +8,9 @@ export default function About() {
         <div className="row align-items-center gy-4">
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div className="about-content">
-              <h3>Our Culinary Journey</h3>
-              <p className="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
-              <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risustristique pos uere. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+              <h3>Rooted in Ukarimu</h3>
+              <p className="fst-italic">Karimu draws from the African value of generosity, expressed not though excess, but through intention.</p>
+              <p>We curate hospitality experiences that honor culture, conversation, and craft in refined spaces.<br />Hospitality, to us, is not performance. It is presence.</p>
 
               <div className="chef-signature mt-4">
                 <div className="row align-items-center">
@@ -17,8 +18,8 @@ export default function About() {
                     <Image src="/assets/img/restaurant/chef-1.webp" width={80} height={80} className="chef-avatar rounded-circle" alt="Chef Portrait" />
                   </div>
                   <div className="col">
-                    <p className="chef-message mb-2">&quot;Cooking is a language through which all the following properties may be expressed: harmony, creativity, happiness, beauty, poetry, complexity, magic, humor, provocation and culture.&quot;</p>
-                    <p className="chef-name">Executive Chef</p>
+                    <p className="chef-message mb-2">&quot;Generosity is not abundance. It is care, expressed through detail, atmosphere and welcome.&quot;</p>
+                    <p className="chef-name">Founder &amp; Curator</p>
                   </div>
                 </div>
               </div>
@@ -40,8 +41,8 @@ export default function About() {
               <div className="feature-icon">
                 <i className="bi bi-award"></i>
               </div>
-              <h4>Award Winning</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <h4>Intentionally Curated</h4>
+              <p>Every gathering is designed with care, from the guests to the menu.</p>
             </div>
           </div>
 
@@ -50,8 +51,8 @@ export default function About() {
               <div className="feature-icon">
                 <i className="bi bi-egg-fried"></i>
               </div>
-              <h4>Fresh Ingredients</h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+              <h4>Culturally Grounded</h4>
+              <p>Inspired by African generosity and refined hospitality traditions.</p>
             </div>
           </div>
 
@@ -60,8 +61,8 @@ export default function About() {
               <div className="feature-icon">
                 <i className="bi bi-people"></i>
               </div>
-              <h4>Expert Team</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+              <h4>Collaborative</h4>
+              <p>We partner with chefs, venues and brands that align in philosophy.</p>
             </div>
           </div>
 
@@ -70,8 +71,8 @@ export default function About() {
               <div className="feature-icon">
                 <i className="bi bi-heart"></i>
               </div>
-              <h4>Cooked with Love</h4>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              <h4>Refined Atmosphere</h4>
+              <p>Luxury, to us, is restraint.</p>
             </div>
           </div>
         </div>
@@ -81,30 +82,38 @@ export default function About() {
             <div className="stats-container">
               <div className="stat-item">
                 <span className="stat-number">
-                  <span>15</span>+
+                  <span>
+                    <AnimatedCounter end={10} />
+                  </span>+
                 </span>
                 <p className="stat-label">Years Experience</p>
               </div>
 
               <div className="stat-item">
                 <span className="stat-number">
-                  <span>5</span>
+                  <span>
+                    <AnimatedCounter end={5} />
+                  </span>
                 </span>
                 <p className="stat-label">Expert Chefs</p>
               </div>
 
               <div className="stat-item">
                 <span className="stat-number">
-                  <span>3</span>
+                  <span>
+                    <AnimatedCounter end={3} />
+                  </span>
                 </span>
-                <p className="stat-label">Culinary Awards</p>
+                <p className="stat-label">Culinary Accolades</p>
               </div>
 
               <div className="stat-item">
                 <span className="stat-number">
-                  <span>15000</span>+
+                  <span>
+                    <AnimatedCounter end={15000} separator="," />
+                  </span>+
                 </span>
-                <p className="stat-label">Happy Customers</p>
+                <p className="stat-label">Servings Later</p>
               </div>
             </div>
           </div>

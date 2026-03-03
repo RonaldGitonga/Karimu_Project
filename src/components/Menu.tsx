@@ -42,7 +42,7 @@ export default function Menu() {
   return (
     <section id="menu" className="menu section">
       <div className="container section-title" data-aos="fade-up">
-        <h2>Menu</h2>
+        <h2>We cater to a wide variety of palletes</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div>
 
@@ -66,8 +66,7 @@ export default function Menu() {
                   <h5>
                     Bruschetta Trio <span className="menu-tag">Vegetarian</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$8.95</div>
+                  <p>Toasted artisanal bread topped with fresh tomatoes, basil, garlic, and a drizzle of balsamic glaze.</p>
                 </div>
               </div>
             </div>
@@ -79,8 +78,7 @@ export default function Menu() {
                   <h5>
                     Calamari Fritti <span className="menu-tag">Seafood</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$10.95</div>
+                  <p>Crispy, golden-fried rings of tender squid served with a zesty lemon-garlic aioli.</p>
                 </div>
               </div>
             </div>
@@ -92,8 +90,7 @@ export default function Menu() {
                   <h5>
                     Wild Mushroom Risotto <span className="menu-tag">Vegetarian</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$18.95</div>
+                  <p>Creamy Arborio rice slow-cooked with earthy porcini and button mushrooms, finished with parmesan.</p>
                 </div>
               </div>
             </div>
@@ -105,8 +102,7 @@ export default function Menu() {
                   <h5>
                     Braised Lamb Shank <span className="menu-tag">Chef&apos;s Choice</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$26.95</div>
+                  <p>Tender, fall-off-the-bone lamb slow-cooked in a rich red wine and rosemary reduction.</p>
                 </div>
               </div>
             </div>
@@ -118,8 +114,7 @@ export default function Menu() {
                   <h5>
                     Chocolate Lava Cake <span className="menu-tag">Gluten Free</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$9.95</div>
+                  <p>Decadent dark chocolate cake with a warm, molten center, served with vanilla bean gelato.</p>
                 </div>
               </div>
             </div>
@@ -131,8 +126,7 @@ export default function Menu() {
                   <h5>
                     Tiramisu <span className="menu-tag">Classic</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$8.95</div>
+                  <p>Espresso-soaked ladyfingers delicately layered with light, creamy mascarpone and dusted with cocoa powder.</p>
                 </div>
               </div>
             </div>
@@ -144,8 +138,7 @@ export default function Menu() {
                   <h5>
                     Signature Cocktail <span className="menu-tag">Alcoholic</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$12.95</div>
+                  <p>A handcrafted blend of premium spirits, fresh citrus notes, and aromatic botanical infusions.</p>
                 </div>
               </div>
             </div>
@@ -157,8 +150,7 @@ export default function Menu() {
                   <h5>
                     Berry Smoothie <span className="menu-tag">Non-Alcoholic</span>
                   </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur sed.</p>
-                  <div className="price">$7.95</div>
+                  <p>A refreshing, vibrant blend of mixed seasonal berries, natural yogurt, and a touch of local honey.</p>
                 </div>
               </div>
             </div>
@@ -167,7 +159,7 @@ export default function Menu() {
 
         <div className="text-center mt-5" data-aos="fade-up">
           <Link href="#" className="download-menu">
-            <i className="bi bi-file-earmark-pdf"></i> Download Full Menu
+            <i className="bi bi-file-earmark-pdf"></i> Create your Own Menu
           </Link>
         </div>
 
@@ -190,8 +182,7 @@ export default function Menu() {
                   </div>
                   <div className="menu-item-content">
                     <h4>Mediterranean Grilled Salmon</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut aliquam metus. Vivamus fermentum magna quis.</p>
-                    <div className="menu-item-price">$24.99</div>
+                    <p>Freshly caught salmon fillet, delicately grilled and served with a bright lemon-herb couscous and seasonal greens.</p>
                   </div>
                 </div>
               </div>
@@ -206,8 +197,7 @@ export default function Menu() {
                   </div>
                   <div className="menu-item-content">
                     <h4>Signature Ribeye Steak</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan risus ut dui pretium, eget elementum nisi.</p>
-                    <div className="menu-item-price">$32.99</div>
+                    <p>A prime cut, aged to perfection, seared with a smoky peppercorn crust and accompanied by roasted wild potatoes.</p>
                   </div>
                 </div>
               </div>

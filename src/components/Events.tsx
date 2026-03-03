@@ -7,7 +7,7 @@ export default function Events() {
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="intro-text text-center mb-5" data-aos="fade-up" data-aos-delay="150">
           <h2>Create Unforgettable Moments</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+          <p>From intimate celebrations to grand gatherings, our spaces are intentionally designed to host life&apos;s most meaningful milestones with effortless grace and generous hospitality.</p>
         </div>
 
         <div className="event-types">
@@ -18,7 +18,7 @@ export default function Events() {
                   <i className="bi bi-calendar-heart"></i>
                 </div>
                 <h3>Weddings &amp; Celebrations</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <p>We craft bespoke, romantic experiences ensuring every detail from the floral arrangements to the tailored menu expresses your unique love story.</p>
                 <span className="capacity">Up to 150 guests</span>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function Events() {
                   <i className="bi bi-building"></i>
                 </div>
                 <h3>Corporate Events</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <p>Impress clients or reward your team in our refined spaces, featuring a curated atmosphere and impeccable service designed for professional excellence.</p>
                 <span className="capacity">Up to 100 guests</span>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Events() {
                   <i className="bi bi-people"></i>
                 </div>
                 <h3>Private Gatherings</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <p>Host exclusive dinners or milestone birthdays in a private, intimate setting where the food, wine, and conversation flow seamlessly.</p>
                 <span className="capacity">Up to 50 guests</span>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Events() {
           <div className="row align-items-center">
             <div className="col-lg-8">
               <h3>Ready to plan your special event?</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo magna. Contact us today to discuss your requirements.</p>
+              <p>Our dedicated event curation team is ready to bring your vision to life. Contact us today to discuss your date and requirements.</p>
             </div>
             <div className="col-lg-4 text-lg-end">
               <Link href="#contact" className="btn-reserve">
@@ -109,7 +109,7 @@ export default function Events() {
                         <i className="bi bi-geo-alt"></i> Garden Terrace
                       </li>
                     </ul>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo magna dolor sit amet.</p>
+                    <p>Join our Lead Sommelier, Elena, for an exclusive evening exploring sustainable, small-batch vintages paired with seasonal bites.</p>
                     <Link href="#" className="btn-details">
                       View Details
                     </Link>
@@ -138,7 +138,7 @@ export default function Events() {
                         <i className="bi bi-geo-alt"></i> Main Dining Hall
                       </li>
                     </ul>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo magna dolor sit amet.</p>
+                    <p>Experience a seven-course culinary journey meticulously crafted by our Executive Chef to highlight the absolute best of local, organic farm produce.</p>
                     <Link href="#" className="btn-details">
                       View Details
                     </Link>

@@ -8,7 +8,7 @@ export default function BookTable() {
           <div className="col-lg-6" data-aos="fade-right" data-aos-delay="200">
             <div className="reservation-info">
               <div className="text-content">
-                <h3>Book Your Table</h3>
+                <h3>Let&apos;s Curate Together</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Aliquam erat volutpat.</p>
 
                 <div className="reservation-details mt-4">
@@ -59,7 +59,7 @@ export default function BookTable() {
           <div className="col-12" data-aos="fade-up" data-aos-delay="400">
             <div className="reservation-form-wrapper">
               <div className="form-header">
-                <h3>Book A Table</h3>
+                <h3>Let&apos;s Curate Together</h3>
                 <p>Please fill the form below to make a reservation</p>
               </div>
 
@@ -105,7 +105,7 @@ export default function BookTable() {
 
                 <div className="text-center mt-4">
                   <button type="submit" className="btn-book-table">
-                    Book Now
+                    Let&apos;s Curate Together
                   </button>
                 </div>
               </form>

@@ -15,37 +15,17 @@ export default function Hero() {
         <div className="row g-0 align-items-center">
           <div className="col-lg-6 content-col">
             <div className="content-wrapper">
-              <div className="status-badge">Reservations Open</div>
-              <h2>Savor the Moment, One Bite at a Time</h2>
-              <p>Discover a journey of flavors at our exquisite restaurant. Immerse yourself in a delightful dining experience crafted with passion and precision.</p>
+              <h2 style={{ fontFamily: "var(--heading-font)" }}>Curated Hospitality, Rooted in Intention</h2>
+              <p style={{ fontFamily: "var(--default-font)", fontSize: "1.15rem", fontWeight: 300, lineHeight: "1.8" }}>
+                The Karimu experience brings people together through thoughtful hosting, refined food, and meaningful connection.
+                <br /><br />
+                <span style={{ fontStyle: "italic", color: "var(--accent-color)" }}>The Art of Generosity, Refined.</span>
+              </p>
 
-              <div className="opening-hours" data-aos="fade-up" data-aos-delay="500">
-                <i className="bi bi-clock"></i>
-                <span>Open Daily: 11am - 10pm</span>
-              </div>
-
-              <div className="btn-group">
-                <Link href="#book-a-table" className="btn btn-book">
-                  Book a Table
+              <div className="btn-group mt-4">
+                <Link href="#experiences" className="btn btn-book">
+                  Explore Gatherings
                 </Link>
-                <Link href="#menu" className="btn btn-menu">
-                  Explore Our Menu
-                </Link>
-              </div>
-
-              <div className="social-links">
-                <a href="#">
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-instagram"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-twitter"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-youtube"></i>
-                </a>
               </div>
             </div>
           </div>

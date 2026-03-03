@@ -11,7 +11,7 @@ export default function Testimonials() {
     <section id="testimonials" className="testimonials section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Kind words from guests who have experienced our hospitality and culinary craft.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -37,7 +37,7 @@ export default function Testimonials() {
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                 </div>
-                <p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
+                <p>&quot;An unforgettable evening. The atmosphere was incredibly refined yet welcoming, and every dish felt like it was crafted with such genuine care and intention. Truly a magnificent experience.&quot;</p>
                 <div className="profile mt-auto">
                   <Image src="/assets/img/person/person-m-9.webp" width={90} height={90} className="testimonial-img" alt="" />
                   <h3>Saul Goodman</h3>
@@ -55,7 +55,7 @@ export default function Testimonials() {
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                 </div>
-                <p>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</p>
+                <p>&quot;From the moment we walked in, we felt completely looked after. The attention to detail in both the service and the plating is unmatched. This isn&apos;t just dining; it&apos;s true hospitality.&quot;</p>
                 <div className="profile mt-auto">
                   <Image src="/assets/img/person/person-f-5.webp" width={90} height={90} className="testimonial-img" alt="" />
                   <h3>Sara Wilsson</h3>
@@ -73,7 +73,7 @@ export default function Testimonials() {
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                 </div>
-                <p>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</p>
+                <p>&quot;The warmth of the staff combined with the perfectly balanced flavors of the tasting menu made for our favorite anniversary dinner yet. We will absolutely be returning.&quot;</p>
                 <div className="profile mt-auto">
                   <Image src="/assets/img/person/person-f-12.webp" width={90} height={90} className="testimonial-img" alt="" />
                   <h3>Jena Karlis</h3>
@@ -91,7 +91,7 @@ export default function Testimonials() {
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                 </div>
-                <p>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</p>
+                <p>&quot;I was blown away by the culturally grounded menu. You can taste the passion and generosity in every bite. It felt like eating a beautifully composed work of art.&quot;</p>
                 <div className="profile mt-auto">
                   <Image src="/assets/img/person/person-m-12.webp" width={90} height={90} className="testimonial-img" alt="" />
                   <h3>Matt Brandon</h3>
@@ -109,7 +109,7 @@ export default function Testimonials() {
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
                 </div>
-                <p>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</p>
+                <p>&quot;A stunning space with food to match. The staff anticipated our every need without ever hovering. It is rare to find a place that balances luxury and comfort so perfectly.&quot;</p>
                 <div className="profile mt-auto">
                   <Image src="/assets/img/person/person-m-13.webp" width={90} height={90} className="testimonial-img" alt="" />
                   <h3>John Larson</h3>

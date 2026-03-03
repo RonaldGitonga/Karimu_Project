@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect } from "react";
 
 export default function Header() {
@@ -56,8 +57,20 @@ export default function Header() {
     <header id="header" className="header d-flex align-items-center sticky-top">
       <div className="container position-relative d-flex align-items-center justify-content-between">
         <Link href="/" className="logo d-flex align-items-center me-auto me-xl-0">
-          <i className="bi bi-fork-knife"></i>
-          <h1 className="sitename">NiceRestaurant</h1>
+          <Image
+            src="/assets/img/karimu-logo-circle.png"
+            alt="The Karimu Experience"
+            width={80}
+            height={80}
+            style={{
+              objectFit: "cover",
+              borderRadius: "50%",
+              border: "2px solid #c9a96e",
+              flexShrink: 0
+            }}
+            priority
+          />
+          <h1 className="sitename" style={{ marginLeft: "12px" }}>The Karimu Experience</h1>
         </Link>
 
         <nav id="navmenu" className="navmenu">
@@ -71,67 +84,39 @@ export default function Header() {
               <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="#menu">Menu</Link>
+              <Link href="#experiences">Experiences</Link>
             </li>
             <li>
-              <Link href="#book-a-table">Book a Table</Link>
+              <Link href="#events">Gatherings</Link>
             </li>
             <li>
-              <Link href="#chefs">Chefs</Link>
+              <Link href="#chefs">Collaborations</Link>
             </li>
             <li>
-              <Link href="#events">Events</Link>
-            </li>
-            <li className="dropdown">
-              <Link href="#">
-                <span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
-              </Link>
-              <ul>
-                <li>
-                  <Link href="#">Dropdown 1</Link>
-                </li>
-                <li className="dropdown">
-                  <Link href="#">
-                    <span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
-                  </Link>
-                  <ul>
-                    <li>
-                      <Link href="#">Deep Dropdown 1</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Deep Dropdown 2</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Deep Dropdown 3</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Deep Dropdown 4</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Deep Dropdown 5</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="#">Dropdown 2</Link>
-                </li>
-                <li>
-                  <Link href="#">Dropdown 3</Link>
-                </li>
-                <li>
-                  <Link href="#">Dropdown 4</Link>
-                </li>
-              </ul>
+              <Link href="#book-a-table">Reserve Seat</Link>
             </li>
             <li>
               <Link href="#contact">Contact</Link>
+            </li>
+            <li className="dropdown">
+              <Link href="#">
+                <span>More</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
+              </Link>
+              <ul>
+                <li>
+                  <Link href="#">Gallery</Link>
+                </li>
+                <li>
+                  <Link href="#">Journal</Link>
+                </li>
+              </ul>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
         <Link className="btn-getstarted d-none d-sm-block" href="#book-a-table">
-          Book a Table
+          Reserve Seat
         </Link>
       </div>
     </header>
